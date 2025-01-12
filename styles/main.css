@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  padding: 24px;
+  height: 67px;
+}
+header img {
+  height: 20px;
+}
+
+.lady-img-container {
+  display: flex;
+  align-self: center;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.lady-img-container .lady-img {
+  position: absolute;
+  top: -88px;
+  left: -155px;
+  max-width: 880px;
+  height: auto;
+}
+
+.page-container {
+  padding: 18px;
+}
+
+.investment-card hr {
+  border: 2px solid #00945f;
+  width: 73px;
+}
+.investment-card h1 {
+  color: #00945f;
+  font-weight: 500;
+  font-size: 26px;
+}
+.investment-card p {
+  color: #888888;
+  text-align: left;
+  line-height: 1.8;
+  font-size: 16px;
+}
+.investment-card button {
+  background-color: #e97300;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  height: 40px;
+  width: 165px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.advantage-cards-container hr {
+  border: 2px solid #00945f;
+  width: 73px;
+}
+.advantage-cards-container h1 {
+  color: #00945f;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+}
+
+.advantage-cards {
+  text-align: left;
+}
+.advantage-cards div {
+  margin-bottom: 40px;
+}
+.advantage-cards div h3 {
+  color: #00945f;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.advantage-cards div p {
+  color: #888888;
+  line-height: 1.8;
+  font-size: 16px;
+}
+.advantage-cards div a {
+  color: #759b24;
+  text-decoration: none;
+}
+
+.home-loan-container {
+  margin-bottom: 40px;
+}
+.home-loan-container h1 {
+  background-color: #00945f;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 18px 23px;
+  margin: 0;
+}
+.home-loan-container p {
+  background-color: #ebf7f5;
+  margin: 0;
+  padding: 21px 10px;
+  line-height: 1.8;
+  text-align: left;
+  color: #888888;
+}
+
+.profiles-container .indv-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.profiles-container .profile {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profiles-container .profile1 {
+  background-color: #e8e8f2;
+}
+.profiles-container .profile2 {
+  background-color: #f4f0f1;
+}
+.profiles-container .profile3 {
+  background-color: #6a7677;
+}
+.profiles-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transform: translateY(20px);
+}
+.profiles-container .profile-content-1,
+.profiles-container .profile-content-2,
+.profiles-container .profile-content-3 {
+  position: relative;
+  width: 60vw;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #888888;
+}
+.profiles-container .quote-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: auto;
+  z-index: 10;
+}
+.profiles-container .quote-text {
+  position: relative;
+}
+.profiles-container h4 {
+  color: #00945f;
+  font-weight: 500;
+  width: 60vw;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.footer-separator {
+  border: 1px solid #00945f;
+  margin: 0;
+}
+
+footer {
+  text-align: left;
+  padding: 26px 18px;
+}
+footer p {
+  font-size: 11px;
+  color: #888888;
+}
+footer .privacy-statement {
+  color: #000;
+  font-size: 11px;
+}
+
+@media (min-width: 1280px) {
+  body {
+    text-align: left;
+  }
+  header {
+    padding: 57px 35px;
+    height: 150px;
+  }
+  header img {
+    height: 36px;
+  }
+  .lady-img-container {
+    height: 450px;
+  }
+  .lady-img-container .lady-img {
+    position: absolute;
+    top: -180px;
+    left: -350px;
+    max-width: 1920px;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    width: 100%;
+    height: 1200;
+    z-index: 2;
+    opacity: 0.8;
+  }
+  .investment-card {
+    text-align: center;
+  }
+  .advantage-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-column-gap: 80px;
+  }
+  .home-loan-container {
+    text-align: center;
+  }
+  .home-loan-container h1 {
+    font-size: 20px;
+    padding: 17.5px 5px;
+  }
+  .home-loan-container p {
+    padding: 30px 65px;
+    height: 175px;
+  }
+  .profiles-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .profiles-container .indv-profile {
+    text-align: center;
+  }
+  .profiles-container .indv-profile .profile-content-1,
+  .profiles-container .indv-profile .profile-content-3 {
+    width: 15vw;
+  }
+  .profiles-container .indv-profile .profile-content-2 {
+    width: 31vw;
+  }
+  .profiles-container h4 {
+    width: 15vw;
+  }
+  footer {
+    padding: 38px;
+  }
+  footer img {
+    margin-bottom: 26px;
+  }
+  footer p {
+    margin-bottom: 28px;
+    font-size: 11px;
+  }
+  footer .privacy-statement {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=main.css.map */

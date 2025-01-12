@@ -1,0 +1,39 @@
+.lady-img-container {
+    display: flex;
+    align-self: center;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  
+    .lady-img {
+      position: absolute;
+      top: -88px;
+      left: -155px;
+      max-width: 880px;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .lady-img-container {
+        height: 450px;
+        .lady-img {
+          position: absolute;
+          top: -180px;
+          left: -350px;
+          max-width: 1920px;
+          height: auto;
+        }
+      }
+    
+      // Overlay
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 500px;
+        width: 100%;
+        height: 1200;
+        z-index: 2;
+        opacity: 0.8;
+      }
+  }

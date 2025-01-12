@@ -1,0 +1,30 @@
+footer {
+  text-align: left;
+  padding: 26px 18px;
+
+  p {
+    font-size: 11px;
+    color: $textGrey;
+  }
+
+  .privacy-statement {
+    color: #000;
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1280px) {
+  footer {
+    padding: 38px;
+    img {
+      margin-bottom: 26px;
+    }
+    p {
+      margin-bottom: 28px;
+      font-size: 11px;
+    }
+    .privacy-statement {
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.home-loan-container {
+    margin-bottom: 40px;
+  
+    h1 {
+      background-color: $textGreen;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.5;
+      padding: 18px 23px;
+      margin: 0;
+    }
+  
+    p {
+      background-color: #ebf7f5;
+      margin: 0;
+      padding: 21px 10px;
+      line-height: 1.8;
+      text-align: left;
+      color: $textGrey;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .home-loan-container {
+      text-align: center;
+      h1 {
+        font-size: 20px;
+        padding: 17.5px 5px;
+      }
+  
+      p {
+        padding: 30px 65px;
+        height: 175px;
+      }
+    }
+  }

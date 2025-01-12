@@ -1,0 +1,55 @@
+// Variables
+$textGreen: #00945f;
+$textGrey: #888888;
+$primaryBtnColor: #e97300;
+$profileBackgrounds: (#e8e8f2, #f4f0f1, #6a7677);
+
+// General Styles
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+// Header Section
+@import "./headerSection";
+
+// Hero Section styles
+@import "./heroSection";
+
+// Page Container
+.page-container {
+  padding: 18px;
+}
+
+// Investment Card
+@import "./investmentCardSection";
+
+// Advantage Cards
+@import "./advantageCardsSection";
+
+// Home Loan Container
+@import "./homeLoanSection";
+
+// Profiles Testimonials Container
+@import "./profileTestimonialsSection";
+
+.footer-separator {
+  border: 1px solid $textGreen;
+  margin: 0;
+}
+
+// Footer
+@import "./footer";
+
+// Media Queries for Larger Screens
+// General Styles
+@media (min-width: 1280px) {
+  body {
+    text-align: left;
+  }
+}

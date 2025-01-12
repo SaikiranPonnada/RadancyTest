@@ -1,0 +1,17 @@
+header {
+    padding: 24px;
+    height: 67px;
+    img {
+      height: 20px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    header {
+        padding: 57px 35px;
+        height: 150px;
+        img {
+          height: 36px;
+        }
+      }
+  }
